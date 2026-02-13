@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/api/transferencias"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "codigoRespuesta": "00",
+      "mensaje": "Transferencia aceptada por banco mock"
+    }
+  }
+}
+

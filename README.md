@@ -168,6 +168,8 @@ Representación simplificada (texto):
    - Marca `Transferencia` como **EXITOSA** o **FALLIDA**.
    - Vuelve a persistir el nuevo estado.
 
+![Diagrama de flujo de la solución](diagrama_de_flujo.png)
+
 ---
 
 ## Diagrama de secuencia (simplificado)
@@ -188,6 +190,7 @@ Texto tipo UML:
 10. `ProcesarTransferenciaService` → `TransferenciaController` : `UUID`
 11. `TransferenciaController` → `Cliente` : `202 Accepted (id, estado=PENDIENTE)`
 
+![Diagrama de secuencia de la solución](diagrama_de_secuencia.png)
 ---
 
 ## MER (Modelo Entidad-Relación)
